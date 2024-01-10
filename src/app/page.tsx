@@ -15,7 +15,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{' '} test
+            By{' '}
               <Image
                 src="/tekgrp-logo.png"
                 alt="tekgrp Logo"
