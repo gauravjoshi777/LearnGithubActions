@@ -1,0 +1,21 @@
+name: Build NextJS application
+on: 
+    push:
+        branches: [main]
+permissions:
+    contents: write
+jobs:
+    build-project:
+        name: Build project
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+            - name: Install NPM dependencies
+              run: npm install
+            - name: Build project asstes
+              run: npm run build
+            - name: Deploy
+              uses: JamesIves/github-pages-deploy-action@v4
+              with:
+                folder: build # The folder the action should deploy.
