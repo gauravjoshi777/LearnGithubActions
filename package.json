@@ -1,6 +1,7 @@
 {
   "name": "learn-github-actions",
   "version": "0.1.0",
+  "homepage": "https://gauravjoshi777.github.io/learn-github-actions/",
   "private": true,
   "scripts": {
     "dev": "next dev",
