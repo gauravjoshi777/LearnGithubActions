@@ -1,7 +1,7 @@
 name: Build NextJS application
 on: 
     push:
-        branches: [main]
+        branches: [dev]
 permissions:
     contents: write
 jobs:
