@@ -17,7 +17,7 @@ export default function Home() {
           >
             By{' '}
               <Image
-                src="/tekgrp-logo.png"
+                src="./tekgrp-logo.png"
                 alt="tekgrp Logo"
                 className="dark:invert"
                 width={100}
